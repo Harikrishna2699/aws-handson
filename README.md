@@ -65,6 +65,8 @@ STEP:7 AFTER PASTE THAT IP ADDRESS IN BROWSER ,WE CAN SEE OUR APPLICATION IN SER
 ![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/be571749-050d-4500-865a-62728a45e608)
 ![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/b67aac88-b041-4066-aeca-0fc1fcaf58b9)
 
+#3
+
 VPC CREATION
 
 
@@ -103,7 +105,54 @@ VPC CREATION
 ![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/8292c580-418e-4680-8a7c-216620191437)
 ![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/7da11d9d-10fd-4e50-acd4-19e06fbf7ae6)
 
+#4
 
+Classic load balancer creation
+
+
+1.In the EC2 Dashboard, under the "Load Balancing" section in the left sidebar, select "Load Balancers."
+2.Click on "Create Load Balancer":
+
+3.In the Load Balancers section, click the "Create Load Balancer" button.
+4.Choose Load Balancer Type:
+
+5.Select "Classic Load Balancer."
+6.Configure Basic Settings:
+
+7.Provide a name for your load balancer.
+8.Select the appropriate availability zones for your load balancer.
+9.Choose the listener configuration (e.g., HTTP on port 80).
+10.Configure Health Check:
+
+11.Set up a health check to monitor the health of your instances. This includes specifying a ping target, port, and health check interval.
+12.Add Instances:
+
+13.Add instances (EC2 instances) to the load balancer. These are the instances that the load balancer will distribute traffic to.
+14.Configure Security Groups:
+
+15.Choose or create security groups for your load balancer. These security groups control the traffic to the load balancer.
+16.Configure Security Settings (Optional):
+
+17.Configure optional security settings such as idle connection timeout and cross-zone load balancing.
+18.Configure Tags (Optional):
+
+19.Add tags to your load balancer for better organization and identification.
+20.Review Configuration:
+
+21.Review the configuration settings for your load balancer.
+22.Click the "Create" button to create your Classic Load Balancer
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/2df1cb28-a34b-4a86-8073-f52a9d4f2a8e)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/e59cea69-cdb9-43bc-931d-cc311f45d629)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/230c0e87-3cdb-4699-8f0c-e5b03e82fd11)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/f6dd1309-6ca0-451d-9f78-ad9089f00bb8)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/1b7bcd6e-b412-49c9-aa75-1b1a902905ea)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/ece0467d-8003-4302-9649-259ea4f24a0a)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/4cafab04-9096-4857-8c8c-751aed88a2a1)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/d97e644d-b33c-4c82-93a3-050ad2788264)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/b8926197-8a02-461c-900e-96b71d0f0b11)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/0f5f7620-15d5-41e8-b45f-ec26c8935954)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/c08b53e9-ab4a-460e-9440-2d6bb970c361)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/dd279288-d4bb-40f8-8e89-1403ea6426ef)
 
 
 
