@@ -65,6 +65,50 @@ STEP:7 AFTER PASTE THAT IP ADDRESS IN BROWSER ,WE CAN SEE OUR APPLICATION IN SER
 ![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/be571749-050d-4500-865a-62728a45e608)
 ![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/b67aac88-b041-4066-aeca-0fc1fcaf58b9)
 
+VPC CREATION
+
+
+1.Provide a name for your VPC.
+2.Specify the CIDR (Classless Inter-Domain Routing) block for your VPC. This defines the IP address range for your VPC. For example, 10.0.0.0/16.
+3.Configure Subnet Settings:
+
+4.Add one or more subnets to your VPC. Each subnet should be associated with a specific availability zone and should have its own CIDR block within the VPC CIDR range.
+5.Configure Route Tables:
+
+6.Create one or more route tables for your VPC. A route table contains a set of rules, called routes, that are used to determine where network traffic is directed.
+7.Configure Internet Gateway (Optional):
+
+8.If your VPC needs to connect to the internet, create an Internet Gateway and attach it to your VPC. This allows instances in your VPC to communicate with the internet.
+9.Configure Security Groups:
+
+10.Create and configure security groups for your VPC. Security groups act as a virtual firewall for your instances to control inbound and outbound traffic.
+11.Configure Network ACLs (Optional):
+
+12.Network ACLs are an optional layer of security for your VPC. You can create network ACLs with rules to control traffic at the subnet level.
+13.Review and Create:
+
+14.Review the configuration settings for your VPC.
+15.Click the "Create VPC" button to create your VPC with the specified settings.
+16.Wait for VPC Creation:
+
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/1eb06d36-6eb6-4047-b66d-186993828b41)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/1a42bfd8-8182-4dad-918b-390238e0ba15)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/4480788d-a4c3-4483-8bc0-561905ba5404)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/1d444944-a762-48bd-8ca2-014dce09b456)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/5ea73669-cd42-467f-bf56-c59d7b330085)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/f59f1396-c032-4f47-baa6-851b980dfb01)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/2957f8f0-1853-4129-924e-6c4f0e4bf56c)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/1320a94a-446b-4ac5-982c-b32591c0443c)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/fbfb2c19-9e6b-4a38-bb93-2ef168dc37a9)  
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/8292c580-418e-4680-8a7c-216620191437)
+![image](https://github.com/Harikrishna2699/aws-handson/assets/73926065/7da11d9d-10fd-4e50-acd4-19e06fbf7ae6)
+
+
+
+
+
+
+
 
 
 
